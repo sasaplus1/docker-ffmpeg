@@ -1,4 +1,5 @@
 .DEFAULT_GOAL := all
+
 SHELL := /bin/bash
 
 makefile     := $(abspath $(lastword $(MAKEFILE_LIST)))
